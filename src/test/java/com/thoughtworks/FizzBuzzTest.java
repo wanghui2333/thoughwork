@@ -66,8 +66,8 @@ public class FizzBuzzTest {
         int num = number;
 
         // when
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        String result = fizzBuzz.say(num);
+        FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizzImpl();
+        String result = fizzBuzzWhizz.say(num);
 
         // then
         assert result.equals(expect);
@@ -79,8 +79,8 @@ public class FizzBuzzTest {
         int num = number;
 
         // when
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        String result = fizzBuzz.say_rule4_5(num);
+        FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizzImplRule4_5();
+        String result = fizzBuzzWhizz.say(num);
 
         // then
         assert result.equals(expect);

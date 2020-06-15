@@ -7,8 +7,10 @@ package com.thoughtworks;
  * @Email : 793147654@qq.com
  * @Date : 2020-06-15 11:57
  */
-class FizzBuzz {
-    String say(int num) {
+class FizzBuzzWhizzImpl implements FizzBuzzWhizz {
+
+    @Override
+    public String say(int num) {
 
         String result = "";
         String fizz = "Fizz";
@@ -33,19 +35,4 @@ class FizzBuzz {
         return result;
     }
 
-    public String say_rule4_5(int num) {
-        String number = String.valueOf(num);
-        String result = "";
-        String fizz = "Fizz";
-
-        if (number.contains("3")) {
-            result += fizz;
-        }
-
-        if ("".equals(result)) {
-            result = String.valueOf(num);
-        }
-
-        return result;
-    }
 }
