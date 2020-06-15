@@ -22,14 +22,6 @@ class FizzBuzzWhizzImplRule4_5 implements FizzBuzzWhizz {
             result += fizz;
         }
 
-        if (number.contains("5")) {
-            result += buzz;
-        }
-
-        if (number.contains("7")) {
-            result += whizz;
-        }
-
         if ("".equals(result)) {
             result = String.valueOf(num);
         }
