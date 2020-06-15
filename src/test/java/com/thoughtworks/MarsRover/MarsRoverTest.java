@@ -29,7 +29,6 @@ public class MarsRoverTest {
         String actual = marsRover.execute(cmd);
 
         String expect = "(0,0)N";
-        System.out.println(actual);
         assert expect.equals(actual);
     }
 

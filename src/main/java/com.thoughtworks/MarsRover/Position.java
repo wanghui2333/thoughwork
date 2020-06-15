@@ -41,7 +41,7 @@ public class Position {
 
     public void setDirection(int direction) {
 
-        if (direction < 0) {
+        while (direction < 0) {
             direction += 4;
         }
 

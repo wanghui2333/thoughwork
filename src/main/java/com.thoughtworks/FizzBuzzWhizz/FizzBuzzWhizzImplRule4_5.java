@@ -15,9 +15,19 @@ class FizzBuzzWhizzImplRule4_5 implements FizzBuzzWhizz {
         String number = String.valueOf(num);
         String result = "";
         String fizz = "Fizz";
+        String buzz = "Buzz";
+        String whizz = "Whizz";
 
         if (number.contains("3")) {
             result += fizz;
+        }
+
+        if (number.contains("5")) {
+            result += buzz;
+        }
+
+        if (number.contains("7")) {
+            result += whizz;
         }
 
         if ("".equals(result)) {

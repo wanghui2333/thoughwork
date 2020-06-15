@@ -58,6 +58,12 @@ public class FizzBuzzWhizzTest {
         this.should_return_expect_given_number_rule4_5(6,"6");
     }
 
+    @Test
+    public void should_return_FizzBuzz_given_35(){
+        this.should_return_expect_given_number(35,"BuzzWhizz");
+    }
+
+
     void should_return_expect_given_number(int number, String expect){
         // given
         int num = number;
