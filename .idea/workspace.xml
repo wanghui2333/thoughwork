@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914985c6-29dd-4297-8fad-7ceb2c9d93f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="285">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +93,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="188">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -108,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+            <state relative-caret-position="323">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
               <folding>
                 <element signature="e#180#181#0" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
@@ -138,6 +150,8 @@
                 <element signature="e#1532#1533#0" expanded="true" />
                 <element signature="e#1564#1565#0" expanded="true" />
                 <element signature="e#1634#1635#0" expanded="true" />
+                <element signature="e#1702#1703#0" expanded="true" />
+                <element signature="e#1772#1773#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,11 +187,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule6.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java" />
       </list>
     </option>
   </component>
@@ -242,15 +257,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
               <item name="FizzBuzzWhizz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
-              <item name="MarsRover" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
@@ -325,6 +331,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.FizzBuzzWhizz" />
       <recent name="com.thoughtworks" />
     </key>
   </component>
@@ -340,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverTest">
+  <component name="RunManager" selected="JUnit.FizzBuzzWhizzTest.should_return_FizzBuzz_given_35_rule6">
     <configuration name="FizzBuzzWhizzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
@@ -356,7 +363,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzWhizzTest.should_return_1_given_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzWhizzTest.should_return_FizzBuzz_given_35_rule6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
         <pattern>
@@ -364,9 +371,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzBuzzWhizzTest" />
-      <option name="METHOD_NAME" value="should_return_1_given_1" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.FizzBuzzWhizz" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzBuzzWhizz.FizzBuzzWhizzTest" />
+      <option name="METHOD_NAME" value="should_return_FizzBuzz_given_35_rule6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -421,11 +428,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzWhizzTest.should_return_FizzBuzz_given_35_rule6" />
         <item itemvalue="JUnit.MarsRoverTest" />
         <item itemvalue="JUnit.FizzBuzzWhizzTest" />
         <item itemvalue="JUnit.MarsRoverTest.should_return__2_1_N_given_MLMMR" />
         <item itemvalue="JUnit.MarsRoverTest.should_return_0_4_N_given_MMMM" />
-        <item itemvalue="JUnit.FizzBuzzWhizzTest.should_return_1_given_1" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +446,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592204074031</updated>
-      <workItem from="1592204075352" duration="12135000" />
+      <workItem from="1592204075352" duration="12623000" />
     </task>
     <servers />
   </component>
@@ -476,7 +483,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12135000" />
+    <option name="totallyTimeSpent" value="12623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -627,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -667,10 +664,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        <state relative-caret-position="323">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
           <folding>
             <element signature="e#180#181#0" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
@@ -696,14 +717,9 @@
             <element signature="e#1532#1533#0" expanded="true" />
             <element signature="e#1564#1565#0" expanded="true" />
             <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#1772#1773#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
         </state>
       </provider>
     </entry>

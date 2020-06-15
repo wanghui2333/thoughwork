@@ -64,6 +64,12 @@ public class FizzBuzzWhizzTest {
     }
 
 
+    @Test
+    public void should_return_FizzBuzz_given_35_rule6(){
+        this.should_return_expect_given_number_rule6(35,"BuzzWhizz");
+    }
+
+
     void should_return_expect_given_number(int number, String expect){
         // given
         int num = number;
@@ -83,6 +89,19 @@ public class FizzBuzzWhizzTest {
 
         // when
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizzImplRule4_5();
+        String result = fizzBuzzWhizz.say(num);
+
+        // then
+        assert result.equals(expect);
+
+    }
+
+    void should_return_expect_given_number_rule6(int number, String expect){
+        // given
+        int num = number;
+
+        // when
+        FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizzImplRule6();
         String result = fizzBuzzWhizz.say(num);
 
         // then
