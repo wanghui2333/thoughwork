@@ -1,11 +1,8 @@
-package com.thoughtworks;
+package com.thoughtworks.FizzBuzzWhizz;
 
 import org.junit.Test;
 
-
-public class FizzBuzzTest {
-
-
+public class FizzBuzzWhizzTest {
     @Test
     public void should_return_1_given_1(){
         this.should_return_expect_given_number(1, "1");
