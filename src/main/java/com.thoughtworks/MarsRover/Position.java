@@ -1,6 +1,5 @@
 package com.thoughtworks.MarsRover;
 
-import java.util.Arrays;
 
 /**
  * 功能描述 : TODO
@@ -10,7 +9,7 @@ import java.util.Arrays;
  * @Date : 2020-06-15 17:18
  */
 public class Position {
-    char[] directionChar = {'N', 'S', 'E', 'W'};
+    char[] directionChar = {'N', 'E', 'S', 'W'};
 
     int x = 0;
     int y = 0;
