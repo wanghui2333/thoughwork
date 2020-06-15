@@ -46,17 +46,44 @@ public class FizzBuzzTest {
         this.should_return_expect_given_number(105,"FizzBuzzWhizz");
     }
 
-    void should_return_expect_given_number(int given, String actual){
+    @Test
+    public void should_return_Fizz_given_30(){
+        this.should_return_expect_given_number_rule4_5(30,"Fizz");
+    }
+
+    @Test
+    public void should_return_Fizz_given_13(){
+        this.should_return_expect_given_number_rule4_5(13,"Fizz");
+    }
+
+    @Test
+    public void should_return_6_given_6(){
+        this.should_return_expect_given_number_rule4_5(6,"6");
+    }
+
+    void should_return_expect_given_number(int number, String expect){
         // given
-        int num = given;
+        int num = number;
 
         // when
         FizzBuzz fizzBuzz = new FizzBuzz();
         String result = fizzBuzz.say(num);
 
         // then
-        assert result.equals(actual);
+        assert result.equals(expect);
 
     }
 
+    void should_return_expect_given_number_rule4_5(int number, String expect){
+        // given
+        int num = number;
+
+        // when
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.say_rule4_5(num);
+
+        // then
+        assert result.equals(expect);
+
+    }
 }

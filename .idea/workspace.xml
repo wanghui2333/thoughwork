@@ -1,32 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="914985c6-29dd-4297-8fad-7ceb2c9d93f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thoughtworks/Dependency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thoughtworks/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/DependencyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/HelloWorldTest.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../../../Project/开源代码/spring-framework-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月22日/gradle-empty-stack" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月26日/unit-test-basic-2019-8-22-2-51-0-126" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月26日/unit-test-mock-basic-2019-8-22-2-55-40-100" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月27日/order-receipt-2019-8-22-3-14-40-234" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月27日/refactoring_step_by_step-2019-8-22-3-9-50-106" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月27日/refactoring_techniques_practice-2019-8-22-3-13-10-189" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月27日/spring-boot-start-stack-2019-8-27-8-35-0-19" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月28日/spring-boot-api-practice-2019-8-27-16-17-41-196" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月28日/spring-boot-test-starter-2019-8-27-16-8-5-951" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月29日/java_persistence_practice_mybatis-2019-8-28-13-13-49-440" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月29日/java_persistence_practice_mybatis_crud-2019-8-29-5-56-46-603" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月29日/java_persistence_practice_parking_lot_comprehensive-2019-8-26-2-21-50-376" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月30日/java_persistence_practice_flyway-2019-8-30-1-2-29-399" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年08月31日/Vue-Counter-2019-5-7-3-24-19-42" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../ThoughtWorks线下培训作业/2019年09月05日/package-booking-backend" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../git repository/Spring-Boot-Restful-2019-5-7-2-41-28-647" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../git repository/hydra-login-consent-node" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../git repository/take-out-food-java-2019-5-21-10-28-17-997" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../spring-boot-api-practice-2019-8-27-16-17-41-196" value="PREVIEW" />
-      </map>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+              <folding>
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1247#1248#0" expanded="true" />
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzTest.java" />
+      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -37,17 +70,113 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/empty-repo.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thoughtworks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -70,6 +199,110 @@
         <item itemvalue="JUnit.FizzBuzzTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="914985c6-29dd-4297-8fad-7ceb2c9d93f2" name="Default Changelist" comment="" />
+      <created>1592204074031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592204074031</updated>
+      <workItem from="1592204075352" duration="884000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FizzBuzzTest - 2020.06.15 at 14h 54m 59s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2020.06.15 at 14h 56m 40s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2020.06.15 at 15h 00m 31s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2020.06.15 at 15h 04m 16s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2020.06.15 at 15h 06m 39s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="884000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding>
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
