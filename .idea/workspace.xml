@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914985c6-29dd-4297-8fad-7ceb2c9d93f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/MarsRover/MarsRoverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/MarsRover/MarsRoverTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="350">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -92,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            <state relative-caret-position="228">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -192,8 +187,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/DirectionConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" />
       </list>
     </option>
   </component>
@@ -456,14 +451,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592204074031</updated>
-      <workItem from="1592204075352" duration="18485000" />
+      <workItem from="1592204075352" duration="19141000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MarsRoverTest - 2020.06.16 at 09h 48m 39s.xml">
-      <configuration name="MarsRoverTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MarsRoverTest - 2020.06.16 at 09h 48m 58s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
@@ -491,9 +483,12 @@
     <history-entry file="MarsRoverTest_should_return_0_0_E_given_init - 2020.06.16 at 11h 36m 27s.xml">
       <configuration name="MarsRoverTest.should_return_0_0_E_given_init" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MarsRoverTest - 2020.06.16 at 11h 37m 11s.xml">
+      <configuration name="MarsRoverTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18485000" />
+    <option name="totallyTimeSpent" value="19141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -511,10 +506,10 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.37349397" />
+      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.37349397" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -701,6 +696,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -739,15 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        <state relative-caret-position="350">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>

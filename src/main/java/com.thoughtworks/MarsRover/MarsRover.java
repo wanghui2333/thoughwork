@@ -32,7 +32,7 @@ public class MarsRover {
     private void left() {
         int direction = position.getDirection().getDirection();
 
-        direction -= 1;
+        direction--;
 
         while (direction < 0) {
             direction += 4;
@@ -44,7 +44,7 @@ public class MarsRover {
     private void right() {
         int direction = position.getDirection().getDirection();
 
-        direction += 1;
+        direction++;
 
         direction %= 4;
 
