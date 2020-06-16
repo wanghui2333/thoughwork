@@ -15,11 +15,20 @@ public class Position {
     int y = 0;
     Direction direction = Direction.NORTH;
 
+    public Position(int x, int y, Direction direction) {
+        this.x = x;
+        this.y = y;
+        this.direction = direction;
+    }
+
     public int getX() {
         return x;
     }
 
     public void setX(int x) {
+        if (x < -5 || x > 5){
+            return;
+        }
         this.x = x;
     }
 
@@ -28,6 +37,10 @@ public class Position {
     }
 
     public void setY(int y) {
+        if (y < -5 || y > 5){
+            return;
+        }
+
         this.y = y;
     }
 

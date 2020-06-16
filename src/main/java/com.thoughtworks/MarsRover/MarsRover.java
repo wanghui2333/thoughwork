@@ -13,7 +13,7 @@ public class MarsRover {
 
     char[] directionChar = {'N', 'E', 'S', 'W'};
 
-    private Position position = new Position();
+    private Position position = new Position(0, 0, NORTH);
 
     public MarsRover init() {
         position.setX(0);
