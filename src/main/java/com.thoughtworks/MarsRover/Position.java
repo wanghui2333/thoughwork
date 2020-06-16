@@ -10,7 +10,10 @@ package com.thoughtworks.MarsRover;
  */
 public class Position {
 
-
+    int xLeftBorder = -5;
+    int xRightBorder = 5;
+    int yLeftBorder = -5;
+    int yRightBorder = 5;
     int x = 0;
     int y = 0;
     Direction direction = Direction.NORTH;
@@ -26,7 +29,7 @@ public class Position {
     }
 
     public void setX(int x) {
-        if (x < -5 || x > 5){
+        if (x < xLeftBorder || x > xRightBorder){
             return;
         }
         this.x = x;
@@ -37,7 +40,7 @@ public class Position {
     }
 
     public void setY(int y) {
-        if (y < -5 || y > 5){
+        if (y < yLeftBorder || y > yRightBorder){
             return;
         }
 
