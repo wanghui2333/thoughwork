@@ -9,15 +9,11 @@ package com.thoughtworks.MarsRover;
  * @Date : 2020-06-15 17:18
  */
 public class Position {
-    char[] directionChar = {'N', 'E', 'S', 'W'};
+
 
     int x = 0;
     int y = 0;
     Direction direction = Direction.NORTH;
-
-    public char getDirectionToChar() {
-        return directionChar[direction.getDirection()];
-    }
 
     public int getX() {
         return x;
@@ -42,10 +38,5 @@ public class Position {
     public void setDirection(Direction direction) {
 
         this.direction = direction;
-    }
-
-    @Override
-    public String toString() {
-        return "(" + x +"," + y + ")" + getDirectionToChar();
     }
 }

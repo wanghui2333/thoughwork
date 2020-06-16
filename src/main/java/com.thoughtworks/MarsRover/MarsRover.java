@@ -11,6 +11,8 @@ import static com.thoughtworks.MarsRover.Direction.NORTH;
  */
 public class MarsRover {
 
+    char[] directionChar = {'N', 'E', 'S', 'W'};
+
     private Position position = new Position();
 
     public MarsRover init() {
@@ -29,8 +31,12 @@ public class MarsRover {
         return this;
     }
 
+    private char getDirectionToChar() {
+        return directionChar[position.getDirection().value()];
+    }
+
     private void left() {
-        int direction = position.getDirection().getDirection();
+        int direction = position.getDirection().value();
 
         direction--;
 
@@ -38,7 +44,7 @@ public class MarsRover {
     }
 
     private void right() {
-        int direction = position.getDirection().getDirection();
+        int direction = position.getDirection().value();
 
         direction++;
 
@@ -85,6 +91,10 @@ public class MarsRover {
             }
         }
 
-        return this.position.toString();
+        return this.displayPosition();
+    }
+
+    public String displayPosition() {
+        return "(" + position.getX() +"," + position.getY() + ")" + getDirectionToChar();
     }
 }
