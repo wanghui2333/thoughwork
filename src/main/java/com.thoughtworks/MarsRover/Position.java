@@ -13,10 +13,10 @@ public class Position {
 
     int x = 0;
     int y = 0;
-    int direction = 0;
+    Direction direction = Direction.NORTH;
 
     public char getDirectionToChar() {
-        return directionChar[direction];
+        return directionChar[direction.getDirection()];
     }
 
     public int getX() {
@@ -35,17 +35,11 @@ public class Position {
         this.y = y;
     }
 
-    public int getDirection() {
+    public Direction getDirection() {
         return direction;
     }
 
-    public void setDirection(int direction) {
-
-        while (direction < 0) {
-            direction += 4;
-        }
-
-        direction %= 4;
+    public void setDirection(Direction direction) {
 
         this.direction = direction;
     }

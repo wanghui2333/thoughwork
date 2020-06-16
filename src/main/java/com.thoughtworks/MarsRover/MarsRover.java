@@ -1,5 +1,7 @@
 package com.thoughtworks.MarsRover;
 
+import static com.thoughtworks.MarsRover.Direction.NORTH;
+
 /**
  * 功能描述 : TODO
  *
@@ -9,43 +11,60 @@ package com.thoughtworks.MarsRover;
  */
 public class MarsRover {
 
-    Position position = new Position();
+    private Position position = new Position();
 
-    public void init() {
+    public MarsRover init() {
         position.setX(0);
         position.setY(0);
-        position.setDirection(0);
+        position.setDirection(NORTH);
+
+        return this;
+    }
+
+    public MarsRover init(int x, int y, Direction direction) {
+        position.setX(x);
+        position.setY(y);
+        position.setDirection(direction);
+
+        return this;
     }
 
     private void left() {
-        int direction = position.getDirection();
+        int direction = position.getDirection().getDirection();
 
         direction -= 1;
 
-        position.setDirection(direction);
+        while (direction < 0) {
+            direction += 4;
+        }
+
+        position.setDirection(Direction.valueOf(direction));
     }
 
     private void right() {
-        int direction = position.getDirection();
+        int direction = position.getDirection().getDirection();
 
         direction += 1;
 
-        position.setDirection(direction);
+        direction %= 4;
+
+        position.setDirection(Direction.valueOf(direction));
     }
 
 
     private void move() {
-        switch (position.getDirectionToChar()) {
-            case 'N':
+
+        switch (position.getDirection()) {
+            case NORTH:
                 position.setY(position.getY() + 1);
                 break;
-            case 'S':
+            case SOUTH:
                 position.setY(position.getY() - 1);
                 break;
-            case 'E':
+            case EAST:
                 position.setX(position.getX() + 1);
                 break;
-            case 'W':
+            case WEST:
                 position.setX(position.getX() - 1);
                 break;
             default:
@@ -53,7 +72,7 @@ public class MarsRover {
         }
     }
 
-    public String execute(String cmd){
+    public String execute(String cmd) {
         char[] cmds = cmd.toCharArray();
 
         for (char c : cmds) {

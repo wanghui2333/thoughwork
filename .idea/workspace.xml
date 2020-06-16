@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914985c6-29dd-4297-8fad-7ceb2c9d93f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/MarsRover/MarsRoverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thoughtworks/MarsRover/MarsRoverTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,19 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/nio/channels/FileChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="914" column="37" selection-start-line="914" selection-start-column="37" selection-end-line="914" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="123">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -62,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+            <state relative-caret-position="330">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#354#355#0" expanded="true" />
@@ -85,10 +78,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -105,26 +113,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="225">
               <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="25">
+              <caret line="68" column="53" lean-forward="true" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
               <folding>
                 <element signature="e#180#181#0" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
@@ -150,8 +149,6 @@
                 <element signature="e#1532#1533#0" expanded="true" />
                 <element signature="e#1564#1565#0" expanded="true" />
                 <element signature="e#1634#1635#0" expanded="true" />
-                <element signature="e#1702#1703#0" expanded="true" />
-                <element signature="e#1772#1773#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,14 +160,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>map0</find>
+      <find>value</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,13 +185,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizzTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule6.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/DirectionConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java" />
       </list>
     </option>
   </component>
@@ -257,6 +258,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
               <item name="FizzBuzzWhizz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
+              <item name="MarsRover" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
@@ -347,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzWhizzTest.should_return_FizzBuzz_given_35_rule6">
+  <component name="RunManager" selected="JUnit.MarsRoverTest">
     <configuration name="FizzBuzzWhizzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
@@ -394,7 +404,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTest.should_return_0_4_N_given_MMMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarsRoverTest.should_return_0_0_E_given_init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
         <pattern>
@@ -404,7 +414,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.thoughtworks.MarsRover" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsRover.MarsRoverTest" />
-      <option name="METHOD_NAME" value="should_return_0_4_N_given_MMMM" />
+      <option name="METHOD_NAME" value="should_return_0_0_E_given_init" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -428,11 +438,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzWhizzTest.should_return_FizzBuzz_given_35_rule6" />
         <item itemvalue="JUnit.MarsRoverTest" />
+        <item itemvalue="JUnit.MarsRoverTest.should_return_0_0_E_given_init" />
+        <item itemvalue="JUnit.FizzBuzzWhizzTest.should_return_FizzBuzz_given_35_rule6" />
         <item itemvalue="JUnit.FizzBuzzWhizzTest" />
         <item itemvalue="JUnit.MarsRoverTest.should_return__2_1_N_given_MLMMR" />
-        <item itemvalue="JUnit.MarsRoverTest.should_return_0_4_N_given_MMMM" />
       </list>
     </recent_temporary>
   </component>
@@ -446,44 +456,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592204074031</updated>
-      <workItem from="1592204075352" duration="12623000" />
+      <workItem from="1592204075352" duration="18485000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MarsRoverTest - 2020.06.15 at 18h 31m 43s.xml">
+    <history-entry file="MarsRoverTest - 2020.06.16 at 09h 48m 39s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2020.06.15 at 18h 32m 24s.xml">
+    <history-entry file="MarsRoverTest - 2020.06.16 at 09h 48m 58s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2020.06.15 at 18h 33m 44s.xml">
+    <history-entry file="MarsRoverTest - 2020.06.16 at 09h 58m 00s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2020.06.15 at 18h 35m 38s.xml">
+    <history-entry file="MarsRoverTest - 2020.06.16 at 09h 58m 10s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2020.06.15 at 18h 36m 58s.xml">
+    <history-entry file="MarsRoverTest - 2020.06.16 at 11h 08m 04s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2020.06.15 at 18h 37m 07s.xml">
+    <history-entry file="MarsRoverTest - 2020.06.16 at 11h 10m 20s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2020.06.15 at 18h 38m 09s.xml">
+    <history-entry file="MarsRoverTest - 2020.06.16 at 11h 10m 47s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzWhizzTest - 2020.06.15 at 19h 21m 20s.xml">
-      <configuration name="FizzBuzzWhizzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsRoverTest - 2020.06.15 at 19h 28m 25s.xml">
+    <history-entry file="MarsRoverTest - 2020.06.16 at 11h 33m 29s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRoverTest - 2020.06.15 at 20h 36m 40s.xml">
-      <configuration name="MarsRoverTest" configurationId="JUnit" />
+    <history-entry file="MarsRoverTest_should_return_0_0_E_given_init - 2020.06.16 at 11h 36m 20s.xml">
+      <configuration name="MarsRoverTest.should_return_0_0_E_given_init" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsRoverTest_should_return_0_0_E_given_init - 2020.06.16 at 11h 36m 27s.xml">
+      <configuration name="MarsRoverTest.should_return_0_0_E_given_init" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12623000" />
+    <option name="totallyTimeSpent" value="18485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -501,10 +511,10 @@
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.37349397" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.37349397" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -627,43 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule4_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -681,17 +654,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="25">
+          <caret line="68" column="53" lean-forward="true" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#180#181#0" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
@@ -717,9 +683,71 @@
             <element signature="e#1532#1533#0" expanded="true" />
             <element signature="e#1564#1565#0" expanded="true" />
             <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-            <element signature="e#1772#1773#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzImplRule6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/e.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
         </state>
       </provider>
     </entry>
