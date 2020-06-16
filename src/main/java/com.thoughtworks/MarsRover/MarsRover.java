@@ -34,10 +34,6 @@ public class MarsRover {
 
         direction--;
 
-        while (direction < 0) {
-            direction += 4;
-        }
-
         position.setDirection(Direction.valueOf(direction));
     }
 
@@ -45,8 +41,6 @@ public class MarsRover {
         int direction = position.getDirection().getDirection();
 
         direction++;
-
-        direction %= 4;
 
         position.setDirection(Direction.valueOf(direction));
     }

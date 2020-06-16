@@ -37,6 +37,12 @@ public enum Direction {
 
     public static Direction valueOf(int direction) {
         Direction ret = null;
+
+        while (direction < 0) {
+            direction += 4;
+        }
+        direction %= 4;
+
         switch (direction){
             case 0:
                 ret = Direction.NORTH;

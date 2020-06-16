@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914985c6-29dd-4297-8fad-7ceb2c9d93f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="270">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -50,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="615">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="38" />
               <folding>
                 <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#354#355#0" expanded="true" />
@@ -75,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="262">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#552#553#0" expanded="true" />
                 <element signature="e#594#595#0" expanded="true" />
@@ -90,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="885">
               <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
             </state>
           </provider>
@@ -186,8 +187,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/FizzBuzzWhizz/FizzBuzzWhizzTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/DirectionConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java" />
       </list>
     </option>
@@ -252,15 +253,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
-              <item name="FizzBuzzWhizz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
               <item name="MarsRover" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,15 +275,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thoughtworks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thoughwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thoughtworks" type="462c0819:PsiDirectoryNode" />
-              <item name="FizzBuzzWhizz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="empty-repo" type="b2602c69:ProjectViewProjectNode" />
@@ -451,14 +434,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592204074031</updated>
-      <workItem from="1592204075352" duration="19141000" />
+      <workItem from="1592204075352" duration="19618000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MarsRoverTest - 2020.06.16 at 09h 48m 58s.xml">
-      <configuration name="MarsRoverTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MarsRoverTest - 2020.06.16 at 09h 58m 00s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
@@ -486,9 +466,12 @@
     <history-entry file="MarsRoverTest - 2020.06.16 at 11h 37m 11s.xml">
       <configuration name="MarsRoverTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MarsRoverTest - 2020.06.16 at 11h 55m 36s.xml">
+      <configuration name="MarsRoverTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19141000" />
+    <option name="totallyTimeSpent" value="19618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -698,28 +681,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/MarsRover/MarsRoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="885">
           <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding>
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="615">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="e#307#308#0" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
@@ -739,10 +709,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/MarsRover/MarsRover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state relative-caret-position="270">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
         </state>
       </provider>
     </entry>
