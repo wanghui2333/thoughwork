@@ -16,7 +16,7 @@ public class Position {
     int yRightBorder = 5;
     int x = 0;
     int y = 0;
-    Direction direction = Direction.NORTH;
+    Direction direction;
 
     public Position(int x, int y, Direction direction) {
         this.x = x;
