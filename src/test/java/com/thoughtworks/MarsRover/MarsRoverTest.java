@@ -203,6 +203,16 @@ public class MarsRoverTest {
         this.should_return_expect_given_cmd_init(expect, cmd, position);
     }
 
+    @Test
+    public void should_return_0__1_W_given_MBMMLMMBMM_init_00N() {
+
+        Position position = new Position(0,0,Direction.NORTH);
+        String cmd = "MBMMLMMBMM";
+        String expect = "(0,-1)W";
+
+        this.should_return_expect_given_cmd_init(expect, cmd, position);
+    }
+
 
     private void should_return_expect_given_cmd_init(String expect, String cmd, Position position){
 
