@@ -11,23 +11,27 @@ import static com.thoughtworks.MarsRover.Direction.NORTH;
  */
 public class MarsRover {
 
+    private CommandChain commandChain = null;
+
     char[] directionChar = {'N', 'E', 'S', 'W'};
 
     private Position position = new Position(0, 0, NORTH);
 
-    public MarsRover init() {
+    public MarsRover init(CommandChain commandChain) {
         position.setX(0);
         position.setY(0);
         position.setDirection(NORTH);
 
+        this.commandChain = commandChain;
         return this;
     }
 
-    public MarsRover init(int x, int y, Direction direction) {
+    public MarsRover init(int x, int y, Direction direction, CommandChain commandChain) {
         position.setX(x);
         position.setY(y);
         position.setDirection(direction);
 
+        this.commandChain = commandChain;
         return this;
     }
 
@@ -35,63 +39,19 @@ public class MarsRover {
         return directionChar[position.getDirection().value()];
     }
 
-    private void left() {
-        int direction = position.getDirection().value();
-
-        direction--;
-
-        position.setDirection(Direction.valueOf(direction));
-    }
-
-    private void right() {
-        int direction = position.getDirection().value();
-
-        direction++;
-
-        position.setDirection(Direction.valueOf(direction));
-    }
-
-
-    private void move() {
-
-        switch (position.getDirection()) {
-            case NORTH:
-                position.setY(position.getY() + 1);
-                break;
-            case SOUTH:
-                position.setY(position.getY() - 1);
-                break;
-            case EAST:
-                position.setX(position.getX() + 1);
-                break;
-            case WEST:
-                position.setX(position.getX() - 1);
-                break;
-            default:
-                break;
-        }
-    }
 
     public String execute(String cmd) {
         char[] cmds = cmd.toCharArray();
 
         for (char c : cmds) {
-            switch (c) {
-                case 'L':
-                    this.left();
-                    break;
-                case 'R':
-                    this.right();
-                    break;
-                case 'M':
-                    this.move();
-                    break;
-                default:
-                    break;
-            }
+            commandChain.excute(c,this);
         }
 
         return this.displayPosition();
+    }
+
+    public Position getPosition() {
+        return position;
     }
 
     public String displayPosition() {

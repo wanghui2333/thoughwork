@@ -207,7 +207,21 @@ public class MarsRoverTest {
     private void should_return_expect_given_cmd_init(String expect, String cmd, Position position){
 
         MarsRover marsRover = new MarsRover();
-        marsRover.init(position.getX(),position.getY(),position.getDirection());
+
+        CommandChain commandChain = new CommandChain();
+
+        Command moveCommand = new MoveCommand();
+        Command baclCommand = new BackCommand();
+        Command leftCommand = new LeftCommand();
+        Command rightCommand = new RightCommand();
+
+        commandChain.addCommand(moveCommand);
+        commandChain.addCommand(baclCommand);
+        commandChain.addCommand(leftCommand);
+        commandChain.addCommand(rightCommand);
+
+
+        marsRover.init(position.getX(),position.getY(),position.getDirection(), commandChain);
 
         String actual = marsRover.execute(cmd);
 
