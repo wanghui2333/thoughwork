@@ -9,35 +9,11 @@ package com.thoughtworks.MarsRover;
  */
 public class BackCommand implements Command {
 
-
-
     @Override
     public void action(char c, MarsRover marsRover) {
 
         if (c == CommandConstant.BACK){
-            this.back(marsRover);
-        }
-    }
-
-    private void back(MarsRover marsRover) {
-
-        Position position = marsRover.getPosition();
-
-        switch (position.getDirection()) {
-            case NORTH:
-                position.setY(position.getY() - 1);
-                break;
-            case SOUTH:
-                position.setY(position.getY() + 1);
-                break;
-            case EAST:
-                position.setX(position.getX() - 1);
-                break;
-            case WEST:
-                position.setX(position.getX() + 1);
-                break;
-            default:
-                break;
+            marsRover.asternReverse();
         }
     }
 }

@@ -11,6 +11,8 @@ import static com.thoughtworks.MarsRover.Direction.NORTH;
  */
 public class MarsRover {
 
+    private boolean enable = false;
+
     private CommandChain commandChain = null;
 
     char[] directionChar = {'N', 'E', 'S', 'W'};
@@ -56,5 +58,13 @@ public class MarsRover {
 
     public String displayPosition() {
         return "(" + position.getX() +"," + position.getY() + ")" + getDirectionToChar();
+    }
+
+    public void asternReverse(){
+        enable = !enable;
+    }
+
+    public boolean isAstern(){
+        return enable;
     }
 }
